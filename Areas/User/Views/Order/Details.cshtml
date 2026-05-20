@@ -1,0 +1,352 @@
+@model Getdata1.DTOs.OrderDto
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng #" + Model.Id;
+    Layout = "~/Areas/User/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    .details-container {
+        max-width: 1000px;
+        margin: 60px auto;
+        padding: 0 24px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .details-header {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .back-link {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #666;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .details-header h1 {
+        font-family: 'Syne', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    /* ── TRACKING STEPPER ── */
+    .tracking-wrap {
+        background: #fff;
+        border-radius: 20px;
+        padding: 40px;
+        border: 1px solid #f0f0f2;
+        margin-bottom: 30px;
+    }
+
+    .stepper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .stepper::before {
+        content: '';
+        position: absolute;
+        top: 24px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: #f0f0f2;
+        z-index: 1;
+    }
+
+    .step {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    .step-icon {
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border: 2px solid #f0f0f2;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: #ccc;
+        margin-bottom: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .step.active .step-icon {
+        border-color: #1a1a1a;
+        color: #1a1a1a;
+        background: #fff;
+    }
+
+    .step.completed .step-icon {
+        background: #1a1a1a;
+        border-color: #1a1a1a;
+        color: #fff;
+    }
+
+    .step-label {
+        font-size: 13px;
+        font-weight: 600;
+        color: #999;
+    }
+
+    .step.active .step-label, .step.completed .step-label {
+        color: #1a1a1a;
+    }
+
+    /* ── CONTENT GRID ── */
+    .details-grid {
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 30px;
+    }
+
+    .details-card {
+        background: #fff;
+        border-radius: 20px;
+        padding: 30px;
+        border: 1px solid #f0f0f2;
+        margin-bottom: 30px;
+    }
+
+    .card-title {
+        font-family: 'Syne', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* ── ITEMS TABLE ── */
+    .order-items {
+        width: 100%;
+    }
+
+    .item-row {
+        display: flex;
+        align-items: center;
+        padding: 16px 0;
+        border-bottom: 1px solid #f5f5f7;
+    }
+
+    .item-row:last-child {
+        border-bottom: none;
+    }
+
+    .item-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        object-fit: cover;
+        background: #f9f9fb;
+        margin-right: 20px;
+    }
+
+    .item-info {
+        flex: 1;
+    }
+
+    .item-name {
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+
+    .item-meta {
+        font-size: 13px;
+        color: #888;
+    }
+
+    .item-price-qty {
+        text-align: right;
+    }
+
+    .item-price {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .item-qty {
+        font-size: 12px;
+        color: #999;
+    }
+
+    /* ── INFO LIST ── */
+    .info-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .info-label {
+        color: #888;
+    }
+
+    .info-val {
+        font-weight: 600;
+        text-align: right;
+    }
+
+    .total-row {
+        margin-top: 10px;
+        padding-top: 20px;
+        border-top: 1px solid #f0f0f2;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    @@media (max-width: 900px) {
+        .details-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<div class="details-container">
+    <a asp-action="Index" class="back-link">
+        <i class='bx bx-left-arrow-alt'></i> Quay lại đơn hàng của tôi
+    </a>
+
+    <div class="details-header">
+        <h1>Chi tiết đơn hàng #PBAO-@Model.Id</h1>
+        <div class="order-date" style="color:#888; font-size:14px">
+            Ngày đặt: @Model.OrderDate.ToString("dd MMMM, yyyy")
+        </div>
+    </div>
+
+    <!-- ── TRACKING ── -->
+    <div class="tracking-wrap">
+        <div class="stepper">
+            @{
+                var status = Model.Status;
+                string s1 = status >= Getdata1.Models.Enums.OrderStatus.Pending ? "completed" : "";
+                string s2 = status >= Getdata1.Models.Enums.OrderStatus.Processing ? "completed" : (status == Getdata1.Models.Enums.OrderStatus.Pending ? "active" : "");
+                string s3 = status >= Getdata1.Models.Enums.OrderStatus.Shipped ? "completed" : (status == Getdata1.Models.Enums.OrderStatus.Processing ? "active" : "");
+                string s4 = status >= Getdata1.Models.Enums.OrderStatus.Delivered ? "completed" : (status == Getdata1.Models.Enums.OrderStatus.Shipped ? "active" : "");
+            }
+
+            <div class="step @s1">
+                <div class="step-icon"><i class='bx bx-receipt'></i></div>
+                <div class="step-label">Đã đặt</div>
+            </div>
+            <div class="step @s2">
+                <div class="step-icon"><i class='bx bx-cog'></i></div>
+                <div class="step-label">Đang xử lý</div>
+            </div>
+            <div class="step @s3">
+                <div class="step-icon"><i class='bx bx-package'></i></div>
+                <div class="step-label">Đang giao</div>
+            </div>
+            <div class="step @s4">
+                <div class="step-icon"><i class='bx bx-check-double'></i></div>
+                <div class="step-label">Đã nhận</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-grid">
+        <!-- LEFT: ITEMS -->
+        <div class="details-left">
+            <div class="details-card">
+                <h3 class="card-title"><i class='bx bx-shopping-bag'></i> Sản phẩm</h3>
+                <div class="order-items">
+                    @foreach (var item in Model.Items)
+                    {
+                        <div class="item-row">
+                            <img src="/img/no-img.jfif" class="item-img" alt="@item.ProductName">
+                            <div class="item-info">
+                                <div class="item-name">@item.ProductName</div>
+                                <div class="item-meta">@item.CategoryName</div>
+                            </div>
+                            <div class="item-price-qty">
+                                <div class="item-price">$@item.Price.ToString("N2")</div>
+                                <div class="item-qty">x @item.Quantity</div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="details-card">
+                <h3 class="card-title"><i class='bx bx-map-pin'></i> Thông tin giao hàng</h3>
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="info-label">Người nhận</span>
+                        <span class="info-val">@Model.CustomerName</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Số điện thoại</span>
+                        <span class="info-val">@Model.Phone</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Địa chỉ</span>
+                        <span class="info-val">@Model.Address</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Phương thức vận chuyển</span>
+                        <span class="info-val">@Model.ShippingMethod</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT: SUMMARY -->
+        <div class="details-right">
+            <div class="details-card">
+                <h3 class="card-title"><i class='bx bx-credit-card'></i> Thanh toán</h3>
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="info-label">Tạm tính</span>
+                        <span class="info-val">$@((Model.TotalPrice + Model.DiscountAmount - Model.ShippingFee).ToString("N2"))</span>
+                    </div>
+                    @if (Model.DiscountAmount > 0)
+                    {
+                        <div class="info-item">
+                            <span class="info-label">Giảm giá (@Model.PromoCode)</span>
+                            <span class="info-val" style="color:var(--new)">-$@Model.DiscountAmount.ToString("N2")</span>
+                        </div>
+                    }
+                    <div class="info-item">
+                        <span class="info-label">Phí vận chuyển</span>
+                        <span class="info-val">@(Model.ShippingFee > 0 ? "$" + Model.ShippingFee.ToString("N2") : "Miễn phí")</span>
+                    </div>
+                    <div class="total-row">
+                        <span>Tổng cộng</span>
+                        <span style="color:var(--accent)">$@Model.TotalPrice.ToString("N2")</span>
+                    </div>
+                    <div class="info-item" style="margin-top:15px">
+                        <span class="info-label">Phương thức</span>
+                        <span class="info-val">@Model.PaymentMethod</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background:#f5f5f7; border-radius:20px; padding:24px; font-size:13px; color:#666; line-height:1.6">
+                <p>Nếu bạn có bất kỳ thắc mắc nào về đơn hàng, vui lòng liên hệ đội ngũ chăm sóc khách hàng của chúng tôi tại <a href="mailto:support@pbao.com" style="color:#1a1a1a; font-weight:600">support@pbao.com</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>

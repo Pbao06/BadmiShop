@@ -74,6 +74,28 @@ namespace Getdata1.Areas.User.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+            var orders = await _orderService.GetOrdersByUserIdAsync(userId);
+            return View(orders);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+            var order = await _orderService.GetOrderByIdAsync(id);
+
+            if (order == null || order.UserId != userId)
+            {
+                return NotFound();
+            }
+
+            return View(order);
+        }
+
+        [HttpGet]
         public async Task<IActionResult> Success(int id)
         {
             var lastOrderId = TempData["LastOrderId"] as int?;
