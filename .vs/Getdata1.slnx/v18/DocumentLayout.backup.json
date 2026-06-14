@@ -3,36 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\views\\productmanual\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\views\\productmanual\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\viewmodels\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\viewmodels\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\wwwroot\\js\\admin_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:wwwroot\\js\\admin_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\viewmodels\\storevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:viewmodels\\storevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\models\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:models\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\viewmodels\\likevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:viewmodels\\likevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\wwwroot\\css\\pagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:wwwroot\\css\\pagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\user\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\user\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\models\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:models\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\views\\productmanual\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\views\\productmanual\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\controllers\\productmanualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\migrations\\20260527092222_addproductfavoriterelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:migrations\\20260527092222_addproductfavoriterelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\areas\\admin\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|solutionrelative:areas\\admin\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA8F62AF-3A5F-6506-FAD5-6DAB2615CAE2}|Getdata1.csproj|c:\\users\\os\\onedrive\\desktop\\asp.net\\getdata1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -133,61 +169,74 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 831,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 604,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\User\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Areas\\User\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAgwGEBAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Areas\\User\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-24T07:52:33.719Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StoreController.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Controllers\\StoreController.cs",
-              "RelativeDocumentMoniker": "Areas\\User\\Controllers\\StoreController.cs",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Controllers\\StoreController.cs",
-              "RelativeToolTip": "Areas\\User\\Controllers\\StoreController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAEAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T05:15:02.464Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Services\\Implementations\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\ProductService.cs",
               "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Services\\Implementations\\ProductService.cs",
               "RelativeToolTip": "Services\\Implementations\\ProductService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAqwDsAAACSAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T15:12:52.83Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\User\\Views\\Store\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "Areas\\User\\Views\\Store\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T05:05:10.143Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T04:41:26.885Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Store\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\User\\Views\\Store\\Index.cshtml",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Store\\Index.cshtml*",
-              "RelativeToolTip": "Areas\\User\\Views\\Store\\Index.cshtml*",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJ4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-03T05:05:10.143Z",
+              "DocumentIndex": 2,
+              "Title": "CustomerVM.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\ViewModels\\CustomerVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\CustomerVM.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\ViewModels\\CustomerVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\CustomerVM.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T04:12:34.955Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -205,20 +254,164 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T01:58:03.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0oAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T04:09:20.247Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:23:08.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderVM.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\ViewModels\\OrderVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\OrderVM.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\ViewModels\\OrderVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\OrderVM.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:15:55.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAEAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T07:14:17.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin_script.js",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\js\\Admin_script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Admin_script.js",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\js\\Admin_script.js",
+              "RelativeToolTip": "wwwroot\\js\\Admin_script.js",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-04T14:26:34.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "StoreVM.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\ViewModels\\StoreVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\StoreVM.cs",
               "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\ViewModels\\StoreVM.cs",
               "RelativeToolTip": "ViewModels\\StoreVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T12:58:38.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T12:58:38.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Shared\\Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\User\\Views\\Shared\\Layout.cshtml",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Shared\\Layout.cshtml",
+              "RelativeToolTip": "Areas\\User\\Views\\Shared\\Layout.cshtml",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAAACUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:40:43.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "DTOs\\ProductDto.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T14:59:35.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaginationVM.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Models\\PaginationVM.cs",
+              "RelativeDocumentMoniker": "Models\\PaginationVM.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Models\\PaginationVM.cs",
+              "RelativeToolTip": "Models\\PaginationVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T15:40:16.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T15:39:54.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LikeVM.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\ViewModels\\LikeVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LikeVM.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\ViewModels\\LikeVM.cs",
+              "RelativeToolTip": "ViewModels\\LikeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T15:39:52.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "pagination.css",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\css\\pagination.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\pagination.css",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\css\\pagination.css",
+              "RelativeToolTip": "wwwroot\\css\\pagination.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-03T15:38:06.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Areas\\User\\Controllers\\HomeController.cs",
@@ -226,24 +419,11 @@
               "RelativeToolTip": "Areas\\User\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T12:46:57.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T12:46:57.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\DTOs\\ProductDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\DTOs\\ProductDto.cs",
-              "RelativeToolTip": "DTOs\\ProductDto.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T14:59:35.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Store\\Details.cshtml",
               "RelativeDocumentMoniker": "Areas\\User\\Views\\Store\\Details.cshtml",
@@ -255,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Mappings\\MappingProfile.cs",
@@ -267,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Detail.css",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\css\\Use_web\\Store\\Detail.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Use_web\\Store\\Detail.css",
@@ -279,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "ProductReview.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Models\\ProductReview.cs",
               "RelativeDocumentMoniker": "Models\\ProductReview.cs",
@@ -291,19 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\ProductManual\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T01:58:03.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "ProductManualController.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Controllers\\ProductManualController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductManualController.cs",
@@ -315,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\DTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "DTOs\\OrderDto.cs",
@@ -327,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Areas\\User\\Controllers\\ProfileController.cs",
@@ -339,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "Style.css",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\css\\Style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Style.css",
@@ -351,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "AdminNotificationViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\ViewComponents\\AdminNotificationViewComponent.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\ViewComponents\\AdminNotificationViewComponent.cs",
@@ -363,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Shared\\Components\\AdminNotification\\Default.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\Components\\AdminNotification\\Default.cshtml",
@@ -375,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -387,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -399,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "MyAccount.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Profile\\MyAccount.cshtml",
               "RelativeDocumentMoniker": "Areas\\User\\Views\\Profile\\MyAccount.cshtml",
@@ -411,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "_GlobalModal.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Views\\Shared\\_GlobalModal.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_GlobalModal.cshtml",
@@ -423,31 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T07:14:17.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Customer\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Customer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\Admin\\Views\\Customer\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Customer\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T04:41:26.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "jquery.validate.js",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
@@ -459,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "additional-methods.js",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -471,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -483,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Areas\\User\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\User\\Views\\Account\\Login.cshtml",
@@ -495,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
@@ -518,7 +662,7 @@
           ]
         },
         {
-          "DockedHeight": 41,
+          "DockedHeight": 268,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -531,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "20260601111729_UpdateRangBuocProducts.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Migrations\\20260601111729_UpdateRangBuocProducts.cs",
               "RelativeDocumentMoniker": "Migrations\\20260601111729_UpdateRangBuocProducts.cs",
@@ -543,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "20260527092222_AddProductFavoriteRelationship.cs",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\ASP.net\\Getdata1\\Migrations\\20260527092222_AddProductFavoriteRelationship.cs",
               "RelativeDocumentMoniker": "Migrations\\20260527092222_AddProductFavoriteRelationship.cs",
@@ -556,15 +700,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

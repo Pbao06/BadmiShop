@@ -5,6 +5,10 @@
 }
 
 <main>
+    @{
+        var isFilterActive = !string.IsNullOrEmpty(ViewBag.Status);
+        var filterClass = isFilterActive ? "filter-card show" : "filter-card";
+    }
     <div class="head-title">
         <div class="left">
             <h1>Orders</h1>
@@ -20,20 +24,34 @@
         <div class="order">
             <div class="head">
                 <h3>Transactions</h3>
-                <div class="filter-wrapper" style="position: relative;">
-                    <i class="bx bx-filter" onclick="toggleFilter()" style="font-size: 20px; cursor: pointer;"></i>
-                    <div id="filterDropdown" style="display:none; position: absolute; right: 0; top: 30px; background: #fff; border: 0.5px solid var(--border); border-radius: 12px; padding: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); z-index: 100;">
-                        <form method="get" asp-action="Index" asp-controller="Order">
-                            <select name="status" onchange="this.form.submit()" style="border: none; outline: none; font-size: 13px; background: transparent; cursor: pointer;">
-                                <option value="">All Orders</option>
+                <i class="bx @(isFilterActive ? "bx-x" : "bx-filter") filter-toggle" data-target="filterOrder" style="font-size: 20px; cursor: pointer;"></i>
+            </div>
+
+            <form method="get" asp-action="Index" asp-controller="Order" class="@filterClass" id="filterOrder">
+                <div class="filter-content">
+                    <div class="filter-row">
+                        <div class="filter-group search-box">
+                            <i class='bx bx-search'></i>
+                            <input type="text" asp-for="Name" placeholder="Search by name..." onchange="this.form.submit()" />
+                        </div>
+                        <div class="filter-group select-box">
+                            <select name="status" onchange="this.form.submit()">
+                                <option value="">All Statuses</option>
                                 <option value="Pending" selected="@(ViewBag.Status == "Pending")">Pending</option>
                                 <option value="Paid" selected="@(ViewBag.Status == "Paid")">Paid</option>
                                 <option value="Cancelled" selected="@(ViewBag.Status == "Cancelled")">Cancelled</option>
                             </select>
-                        </form>
+                        </div>
+                        <div class="filter-actions">
+                             <a asp-action="Index" class="btn-reset">Reset</a>
+                             <button type="submit" class="btn-primary">Filter</button>
+                        </div>
                     </div>
+
+                   
+                
                 </div>
-            </div>
+            </form>
             <table>
                 <thead>
                     <tr>

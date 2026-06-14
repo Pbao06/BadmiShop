@@ -23,7 +23,7 @@ public class OrderController : Controller
         _context = context;
     }
     // Get: /Order/Index
-    public async Task<IActionResult> Index(string? status,int page=1)
+    public async Task<IActionResult> Index(string? status,string? name,int page=1)
     {
         try
         {
@@ -37,8 +37,18 @@ public class OrderController : Controller
 
             // Step 2 - apply filter
             if (!string.IsNullOrEmpty(status))
-                if (Enum.TryParse<OrderStatus>(status, out var orderStatus))
+                if (Enum.TryParse<OrderStatus>(status, out var orderStatus)) // convert string to enum ( chữ thường ) 
                     query = query.Where(o => o.Status == orderStatus);
+
+            if(!string.IsNullOrWhiteSpace(name))
+            {
+                {
+                    // Đưa về chữ thường (tolower) nếu bạn muốn tìm kiếm không phân biệt hoa thường (Case-insensitive)
+                    // Lưu ý: Tùy vào Collation của Database mà mặc định có thể đã không phân biệt hoa thường rồi.
+                    var searchTerm = name.Trim();
+                    query = query.Where(o => o.User != null && o.User.UserName.Contains(searchTerm));
+                }
+            }
 
             int totalOrders = await query.CountAsync();
             int totalPages = (int)Math.Ceiling(totalOrders / (double)pageSize);
@@ -64,7 +74,8 @@ public class OrderController : Controller
                 Orders = orders,
                 CurrentPage = page,
                 TotalPages = totalPages,
-                Status = status
+                Status = status,
+                Name = name
             };
 
             ViewBag.Status = status;

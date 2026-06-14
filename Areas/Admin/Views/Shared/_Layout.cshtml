@@ -34,11 +34,15 @@
     }
 
     <!-- SIDEBAR -->
+    <div class="sidebar-overlay"></div>
     <section id="sidebar">
-        <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="brand">
-            <i class='bx bx-trophy'></i>
-            <span>Pbao Admin</span>
-        </a>
+        <div class="brand-container">
+            <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="brand">
+                <i class='bx bx-trophy'></i>
+                <span>Pbao Admin</span>
+            </a>
+            <i class='bx bx-x mobile-close-sidebar'></i>
+        </div>
         
         <ul class="side-menu">
             <li class="@IsActive("Home")">
@@ -157,6 +161,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             if (typeof initSidebar === 'function') initSidebar();
             if (typeof initNavbar === 'function') initNavbar();
+            if (typeof initFilter === 'function') initFilter();
         });
     </script>
 </body>

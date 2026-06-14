@@ -96,9 +96,9 @@ namespace Getdata1.Services.Implementations
                 _ => query.OrderBy(p => p.Name)
             };
 
-            var totalCount = await query.CountAsync();
+            var totalCount = await query.CountAsync(); // đếm số lượng sản phẩm tính được 
             var products = await query
-                .Skip((page - 1) * pageSize)
+                .Skip((page - 1) * pageSize) // bỏ qua -> số lượng sản phẩm 
                 .Take(pageSize)
                 .ToListAsync();
 

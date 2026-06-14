@@ -43,7 +43,7 @@
                 }
             </span>
         </li>
-        <li>
+        @* <li>
             <i class='bx bx-trending-up'></i>
             <span class="text">
                 @if (ViewBag.Top1 != null)
@@ -60,16 +60,29 @@
 
                
             </span>
-        </li>
+        </li> *@
     </ul>
 
     <div class="table-data">
         <div class="order">
+            @{
+                var isFilterActive = !string.IsNullOrEmpty(Model.Name) || 
+                                   Model.CategoryId.HasValue || 
+                                   Model.MinPrice.HasValue || 
+                                   Model.MaxPrice.HasValue || 
+                                   Model.MinStock.HasValue || 
+                                   Model.MaxStock.HasValue || 
+                                   !string.IsNullOrEmpty(Model.Status);
+                var filterClass = isFilterActive ? "filter-card show" : "filter-card";
+            }
             <div class="head">
                 <h3>Product List</h3>
+                <i class="bx @(isFilterActive ? "bx-x" : "bx-filter") filter-toggle" data-target="filterSection" style="font-size: 20px; cursor: pointer;"></i>
             </div>
 
-            <form method="get" asp-action="Index" asp-controller="ProductManual" class="filter-card">
+
+        
+            <form method="get" asp-action="Index" asp-controller="ProductManual" class="@filterClass" id="filterSection">
                 <div class="filter-content">
                     <div class="filter-row">
                         <div class="filter-group search-box">

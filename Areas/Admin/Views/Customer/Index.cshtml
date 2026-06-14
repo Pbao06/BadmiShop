@@ -5,6 +5,14 @@
 }
 
 <main>
+    @{
+        // var isFilterActive = !string.IsNullOrEmpty(ViewBag.Status);
+        // Kiểm tra xem người dùng có đang lọc gì không
+        var isFilterActive = !string.IsNullOrEmpty(Model.SearchName)
+        || !string.IsNullOrEmpty(Model.RoleSearch)
+        || !string.IsNullOrEmpty(Model.StatusFilter);
+        var filterClass = isFilterActive ? "filter-card show" : "filter-card";
+    }
     <div class="head-title">
         <div class="left">
             <h1>Customers</h1>
@@ -20,7 +28,45 @@
         <div class="order">
             <div class="head">
                 <h3>Customer Retention</h3>
+                <i class="bx @(isFilterActive ? "bx-x" : "bx-filter") filter-toggle" data-target="filterOrder" style="font-size: 20px; cursor: pointer;"></i>
             </div>
+
+            <form method="get" asp-action="Index" asp-controller="Customer" class="@filterClass" id="filterOrder">
+                <div class="filter-content">
+                    <div class="filter-row">
+                        <div class="filter-group search-box">
+                            <i class='bx bx-search'></i>
+                            <input type="text" asp-for="SearchName" placeholder="Search by name..." onchange="this.form.submit()" />
+                        </div>
+                        <div class="filter-group select-box">
+                            <select name="RoleSearch" onchange="this.form.submit()">
+                                <option value="">All Roles</option>
+                                <option value="Admin" selected="@(Model.RoleSearch == "Admin")">Admin</option>
+                                <option value="User" selected="@(Model.RoleSearch == "User")">User</option>
+                            </select>
+                        </div>
+                        <div class="filter-group select-box">
+                            <select name="StatusFilter" onchange="this.form.submit()">
+                                <option value="">All Statuses</option>
+                                <option value="VIP" selected="@(Model.StatusFilter == "VIP")">VIP</option>
+                                <option value="Regular" selected="@(Model.StatusFilter == "Regular")">Regular</option>
+                            </select>
+                        </div>
+                        <div class="filter-actions">
+                            <a asp-action="Index" class="btn-reset">Reset</a>
+                            <button type="submit" class="btn-primary">Filter</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </form>
+
+
+
+
+
             <table>
                 <thead>
                     <tr>

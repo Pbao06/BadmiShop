@@ -10,7 +10,7 @@ namespace Getdata1.Areas.Admin.ViewModels
         public decimal TotalPrice { get; set; }
         public string? UserName { get; set; }  // added
     }
-    public class OrderVM // this detail VM
+    public class OrderVM // this detail for page order details VM
     {
         // things i need to show in UI 
         public int OrderId { get; set; }
@@ -39,5 +39,7 @@ namespace Getdata1.Areas.Admin.ViewModels
         public string? Status { get; set; }   // ← for filter
         public string? Name { get; set; }     // ← keep pagination compatible
         public int? CategoryId { get; set; }  // ← keep pagination compatible
+        // we need max price and min price for filter  
+       
     }
 }
