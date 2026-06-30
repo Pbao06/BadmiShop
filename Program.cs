@@ -112,6 +112,8 @@ namespace Getdata1
             }catch(Exception ex)
             {
                 var logger = app.Services.GetRequiredService<ILogger<Program>>();
+                // Sửa lại dòng này để in ra lỗi rõ nhất có thể
+                Console.WriteLine("LỖI SEEDING CHI TIẾT: " + ex.ToString());
                 logger.LogError(ex, "An error orrcurred while seeding the database");
 
             }
