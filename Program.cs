@@ -100,7 +100,21 @@ namespace Getdata1
             );
 
             // Seed
-            await DbInitializer.SeedAsync(app.Services);
+
+            try
+            {
+                using (var scope = app.Services.CreateScope())
+                {
+                    var services = scope.ServiceProvider;
+                    await DbInitializer.SeedAsync(app.Services);
+                }
+
+            }catch(Exception ex)
+            {
+                var logger = app.Services.GetRequiredService<ILogger<Program>>();
+                logger.LogError(ex, "An error orrcurred while seeding the database");
+
+            }
 
             app.Run();
         }
