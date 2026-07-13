@@ -8,7 +8,7 @@ A web-based management system developed to streamline inventory tracking and ord
 - **Minimalist UI:** Clean and intuitive interface for an optimal user experience.
 
 ## 🛠 Tech Stack
-- **Framework:** ASP.NET Core
+- **Framework:** ASP.NET Core MVC
 - **Database:** SQL Server
 - **Language:** C#
 - **Tools:** Visual Studio, Git
