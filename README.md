@@ -6,6 +6,7 @@ A web-based management system developed to streamline inventory tracking and ord
 - **Inventory Management:** Effortlessly add, update, and track badminton rackets, shuttlecocks, and apparel.
 - **Order Processing:** Efficient system for managing customer orders and status tracking.
 - **Minimalist UI:** Clean and intuitive interface for an optimal user experience.
+- **Payment Integration:** VNPay integration is currently in progress (work-in-progress).
 
 ## 🛠 Tech Stack
 - **Framework:** ASP.NET Core MVC
