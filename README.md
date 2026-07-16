@@ -43,7 +43,7 @@ This system is built with a relational architecture to ensure data integrity and
 
 
 ## 🚀 Live Demo
-You can view the project at: [Link dự án trên Render]
+You can view the project at: https://project-web-bat.onrender.com
 > **Note:** This project is currently deployed on Render's free tier. Please note that the server may go to "sleep" after periods of inactivity. If the page takes a while to load (or shows a 50x error) upon first access, please wait a few seconds while the server wakes up.
 
 ## 💡 How to Run Locally
@@ -56,4 +56,4 @@ You can view the project at: [Link dự án trên Render]
    - **Password:** `Phangiabao`
 
 ## 👤 Author
-**Phan Gia Bảo** - [GitHub Profile](https://github.com/Pbao06)
+**Phan Gia Bảo** - [GitHub Profile](https://github.com/Pbao06) siuu 
